@@ -43,19 +43,38 @@ p{
 .circle1{
     width: 622px;
     position: absolute;
-    left: -150px;
     top: -150px;
-    rotate: 100deg;
+    left: -150px;
+    rotate: 135deg;
     z-index: -1;
+}
+
+@media screen and (width>786px) {
+    .circle1{
+        width: 978px;
+        position: absolute;
+        top: -517px;
+        left: -283px;
+        rotate: 135deg;
+    }
 }
 
 .circle2{
     width: 622px;
     position: absolute;
+    top: 375px;
     left: 165px;
-    top: 621px;
-    rotate: 45deg;
     z-index: -1;
+}
+
+@media screen and (width>786px) {
+    .circle2{
+        width: 978px;
+        position: absolute;
+        top: 376px;
+        left: 692px;
+        rotate: 45deg;
+    }
 }
 
 .main{
@@ -68,6 +87,16 @@ p{
    position: relative;
    margin-left: auto;
    margin-right: auto;
+}
+
+@media screen and (width>786px) {
+    .main{
+        width: 978px;
+        position: absolute;
+        top: -517px;
+        bottom: -283px;
+        rotate: 135deg;
+    }
 }
 
 .profileback{
