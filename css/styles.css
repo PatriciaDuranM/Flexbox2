@@ -113,6 +113,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 24px;
 }
 .title{
     font-weight: 700;
@@ -138,6 +139,12 @@ p{
     border-top: 1px solid #E8E9EC;
     justify-content: space-around;
     text-align: center;
+}
+
+@media screen and (width>786px) {
+    .data{
+        width: 350px;
+    }
 }
 .titledata{
     font-weight: 700;
