@@ -91,11 +91,7 @@ p{
 
 @media screen and (width>786px) {
     .main{
-        width: 978px;
-        position: absolute;
-        top: -517px;
-        bottom: -283px;
-        rotate: 135deg;
+        width: 350px;
     }
 }
 
